@@ -1,0 +1,2 @@
+pa=input("enter a physical attribute")
+wt=input("enter a wierd texture")
