@@ -1,26 +1,55 @@
 import random
-number1=random.randint(0-100)
-number2=random.randint(0-100)
-number3=random.randint(0-100)
-number4=random.randint(0-100)
-number5=random.randint(0-100)
-class guess1:
-    ...
-
-guess1 .input("guess the first number")
-class guess2:
-    ...
-
-guess2.input("guess the second number")
-class guess3:
-    ...
-
-guess3.input("guess the third number")
-class guess4:
-    ...
-
-guess4.input("guess the fourth number")
-class guess5:
-    ...
-
-guess5.input("guess the fifth number")
+n = random.randint(1, 100)
+guess = int(input("Guess a number between 1 and 100: "))
+if guess == n:
+    print("+10 points")
+elif n - 5 < guess < n + 5:
+    print("+5 points")
+elif n - 10 < guess < n + 10:
+    print("+2 points")
+else:
+    print("0 points")
+import random
+n = random.randint(1, 100)
+guess = int(input("Guess a number between 1 and 100: "))
+if guess == n:
+    print("+10 points")
+elif n - 5 < guess < n + 5:
+    print("+5 points")
+elif n - 10 < guess < n + 10:
+    print("+2 points")
+else:
+    print("0 points")
+import random
+n = random.randint(1, 100)
+guess = int(input("Guess a number between 1 and 100: "))
+if guess == n:
+    print("+10 points")
+elif n - 5 < guess < n + 5:
+    print("+5 points")
+elif n - 10 < guess < n + 10:
+    print("+2 points")
+else:
+    print("0 points")
+import random
+n = random.randint(1, 100)
+guess = int(input("Guess a number between 1 and 100: "))
+if guess == n:
+    print("+10 points")
+elif n - 5 < guess < n + 5:
+    print("+5 points")
+elif n - 10 < guess < n + 10:
+    print("+2 points")
+else:
+    print("0 points")
+import random
+n = random.randint(1, 100)
+guess = int(input("Guess a number between 1 and 100: "))
+if guess == n:
+    print("+10 points")
+elif n - 5 < guess < n + 5:
+    print("+5 points")
+elif n - 10 < guess < n + 10:
+    print("+2 points")
+else:
+    print("0 points")
