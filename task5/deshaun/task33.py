@@ -52,4 +52,4 @@ elif n - 5 < guess < n + 5:
 elif n - 10 < guess < n + 10:
     print("+2 points")
 else:
-    print("0 points")
+    print("0 points"
