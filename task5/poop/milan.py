@@ -1,0 +1,1 @@
+print("milan is poo and muhammed is an idiot")
